@@ -12,12 +12,12 @@ _start:
   xor rax, rax
   mov al, 59  
   xor rdi, rdi
-	mov rbx,0x68732f2f6e69622f 
-	push rdi
-	push rbx
-	push rsp
-	pop rdi
-	syscall
+  mov rbx,0x68732f2f6e69622f 
+  push rdi
+  push rbx
+  push rsp
+  pop rdi
+  syscall
 
    0x0000000000401000 <+0>:	xor    rax,rax
    0x0000000000401003 <+3>:	mov    al,0x3b
